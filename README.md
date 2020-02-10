@@ -1,16 +1,9 @@
-# A Spring Boot command line utility
+# Java as a Pass-by-Value Language
 
-This is a template for a simple command line utility with several examples:
+Demonstrates the use of Java as a pass-by-value language vs pass-by-reference.
 
-1. Simple command line parsing
-1. Pre and Post hooks for the spring app
-1. A small progress utility class can be used to show a progress meter in the cli
+- In order to understand this concept it helps to know how the JVM uses Stack memory vs Heap memroy.
 
-Additional components:
+Additional details can be found here (URL from where the original source was found):
 
-1. Assembly packaging. This allows us to package as a zip file or some other packaging and packages different files for deployment.
-
-
-1. The target directory will contain the expected java-ref-value.jar.
-1. It will also contain java-ref-value-distribution.zip file, which wraps several other files for final distribution.
-
+https://www.journaldev.com/3884/java-is-pass-by-value-and-not-pass-by-reference
